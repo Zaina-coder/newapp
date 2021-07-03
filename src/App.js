@@ -1,15 +1,22 @@
 import logo from './logo.svg';
+import Weather from './Weather';
+import './Weather.css';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Weather app
-      </h1>
-     <p> This project is coded by zainab 
+      <div className="container">
+
+     
+      
+        
+        <Weather city ="new york"/>
+   
+     <footer> This project is coded by zainab 
        <a href="https://github.com/Zaina-coder/newapp" target="_blank">open sourced</a>
-     </p>
+     </footer>
+     </div>
     </div>
   );
 }
