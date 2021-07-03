@@ -11,7 +11,7 @@ function App() {
      
       
         
-        <Weather city ="new york"/>
+        <Weather city ="paris"/>
    
      <footer> This project is coded by zainab 
        <a href="https://github.com/Zaina-coder/newapp" target="_blank">open sourced</a>
