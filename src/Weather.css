@@ -31,19 +31,20 @@
   color: rgb(112, 117, 122);
   font-family: arial, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 20px;
 }
-.WeatherName .image {
+.WeatherName .canvas {
   height: 64px;
   margin-right: 10px;
+  margin-top: 5px;
   display: inline-block;
 }
 
 .WeatherName .temperature {
   font-weight: 400;
   font-size: 64px;
-  font-family: bold;
+  font-weight: bold;
   color: rgb(32, 33, 36);
   line-height: 64px;
 }
@@ -53,6 +54,7 @@
    position: relative;
    line-height: 1;
    color :rgb(32, 33, 36);
+   top:-34px ;
 
  }
  

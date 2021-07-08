@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import Weather from './Weather';
 import './Weather.css';
 import './App.css';
@@ -11,7 +11,7 @@ function App() {
      
       
         
-        <Weather city ="paris"/>
+        <Weather defaultcity="london"/>
    
      <footer> This project is coded by zainab 
        <a href="https://github.com/Zaina-coder/newapp" target="_blank">open sourced</a>
