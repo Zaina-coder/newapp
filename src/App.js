@@ -14,7 +14,7 @@ function App() {
         <Weather defaultcity="london"/>
    
      <footer> This project is coded by zainab 
-       <a href="https://github.com/Zaina-coder/newapp" target="_blank">open sourced</a>
+       <a href="https://github.com/Zaina-coder/newapp" target="_blank" rel="noreferrer" >open sourced</a>
      </footer>
      </div>
     </div>
