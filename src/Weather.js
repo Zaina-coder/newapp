@@ -11,8 +11,10 @@ const[weatherData,setWeatherData]=useState({ready :false});
 //checking if the weatherdata ready and it false so it do the api call
 function handleResponse(response){
      console.log(response.data.main);
+     // we use the weatherData state to store all temp , humditiy etc...
 setWeatherData({
        ready:true ,
+       coordinates:response.data.coords,
     temperature:response.data.main.temp, 
     humidity:response.data.main.humidtiy,
     description:response.data.weather[0].description,
@@ -58,10 +60,10 @@ setWeatherData({
             </div>
         </form>
         <WeatherInfo  info={weatherData}/>
-        <WeatherForcast />
+        <WeatherForcast coordinates={weatherData.coordinates}/>
       
         </div>);
-
+/// we store the coordinates into a key varible called coordinates inside the state and then we callin  it into the weatherforcast 
 
     }
      else{
