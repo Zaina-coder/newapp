@@ -14,9 +14,10 @@ function handleResponse(response){
      // we use the weatherData state to store all temp , humditiy etc...
 setWeatherData({
        ready:true ,
-       coordinates:response.data.coords,
+    coordinates:response.data.coord,
+    //bug caused by adding S in coord .
     temperature:response.data.main.temp, 
-    humidity:response.data.main.humidtiy,
+    humidity: response.data.main.humidity,
     description:response.data.weather[0].description,
     date:new Date(response.data.dt*1000) ,
     city: response.data.name,
