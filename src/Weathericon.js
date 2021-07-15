@@ -29,11 +29,12 @@ export default function Weathericon(props){
 
 
     };
+    //useEffect whenever this variable changer (coordinates or you sent me new coordinates) run this code for me.
     
     return (
           <ReactAnimatedWeather
     icon= {codeMapping[props.code]}
-    color="goldenrod"
+    color="#2596be"
     size= {props.size}
     animate={true}
   /> ); }
