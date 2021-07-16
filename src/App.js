@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <div claasName ="background ">
 
      
       
@@ -19,6 +20,7 @@ function App() {
        <a href=" https://eager-leavitt-7cba94.netlify.app/" target="_blank" rel="noreferrer"> Hosted on Netlify </a>
      </footer>
      </div>
+    </div>
     </div>
   );
 }
